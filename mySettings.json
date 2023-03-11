@@ -1,0 +1,62 @@
+{
+    "allow_to_exceed": true,
+    "double_click_action": 3,
+    "is_always_top": true,
+    "is_concise_mode": false,
+    "is_exchange_up_down": false,
+    "is_lock_window_pos": false,
+    "is_mainwindow_show": true,
+    "is_show_mouse_tips": true,
+    "is_show_network_unit": true,
+    "is_show_percent_sign": true,
+    "is_showing_more_info": true,
+    "is_specify_color": false,
+    "mainwindow_color": [
+        0,
+        0,
+        0,
+        255
+    ],
+    "mainwindow_font": {
+        "bold": false,
+        "family": "楷体",
+        "italic": false,
+        "pointSize": 9
+    },
+    "mainwindow_text": {
+        "CPU_text": "CPU:",
+        "down_text": "下载:",
+        "memory_text": "内存:",
+        "up_text": "上传:"
+    },
+    "memory_show_mode": 0,
+    "network_unit": 0,
+    "specified_color": {
+        "CPU_color": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "down_color": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "memory_color": [
+            0,
+            0,
+            0,
+            255
+        ],
+        "up_color": [
+            85,
+            255,
+            255,
+            255
+        ]
+    },
+    "unit_choose": 0,
+    "upellucidity": 1
+}

@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "environment": [
+                {
+                    "name": "QT_QPA_PLATFORM_PLUGIN_PATH",
+                    "value": "S:/software/qt/6.2.7/mingw_64/plugins"
+                }
+            ],
+            "miDebuggerPath": "S:\\software\\qt\\Tools\\mingw1120_64\\bin\\gdb.exe"
+        }
+    ]
+    // "configurations": [
+    //     {
+    //         "name": "Launch",
+    //         "type": "lldb",
+    //         "request": "launch",
+    //         "program": "${command:cmake.launchTargetPath}",
+    //         "args": [],
+    //         "cwd": "${workspaceRoot}",
+    //         "env": {
+    //             "PATH": "S:\\software\\qt\\6.2.7\\mingw_64\\bin",
+    //             "QT_QPA_PLATFORM_PLUGIN_PATH": "S:\\software\\qt\\6.2.7\\mingw_64\\plugins"
+    //         }
+    //     }
+    // ]
+}
